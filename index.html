@@ -7,11 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Introducción al desarrollo Frontend con framework JavaScript: PEC 1">
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <title>PEC 1</title>
+    <script async type="text/javascript" src="./scripts/script.js"></script>
+    <title>PEC 1: Form Validator</title>
 </head>
 
 <body>
-    
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Register With Us</h2>
+            <!-- USER NAME -->
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <small>Error message</small>
+            </div>
+
+            <!-- USER EMAIL -->
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <small>Error message</small>
+            </div>
+
+            <!-- USER PASSWORD -->
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <small>Error message</small>
+            </div>
+
+            <!-- PASSWORD CONFIRMATION -->
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Enter your password again">
+                <small>Error message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>

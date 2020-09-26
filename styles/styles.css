@@ -4,7 +4,7 @@
 /* VARIABLES */
 /* Scope: root */
 :root {
-    --succes-color: #2ECC71;
+    --success-color: #2ECC71;
     --error-color: #E74C3C;
 }
 
@@ -64,8 +64,8 @@ h2 {
     border-color: #777777;
 }
 
-.form-control.succes input{
-    border-color: var(--succes-color);
+.form-control.success input{
+    border-color: var(--success-color);
 }
 
 .form-control.error input{

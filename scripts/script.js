@@ -91,7 +91,7 @@ function checkPassword(input) {
 
     if (!errorField[2]) {
         if (!regExp.test(input.value.trim())) {
-            showError(input, `${getFieldName(input)} is not valid`, 2);
+            showError(input, `${getFieldName(input)} is not valid, must contain numbers or letters (uppercase or lowercase) and at least one symbol`, 2);
         } else {
             showSuccess(input, 2);
         }   
